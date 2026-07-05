@@ -15,7 +15,7 @@ duplicates, and inconsistent formatting to prepare it for analysis.
 Excel (Power Query)
 
 ## Files
-- `Project1_Data_Cleaning_SujalSinghNegi.xlsx` — Cleaned dataset with Change Log sheet
+- [Project1_Data_Cleaning_SujalSinghNegi.xlsx](./Project1_Data_Cleaning_SujalSinghNegi.xlsx) — Cleaned dataset with Change Log sheet
 
 ## Key Outcome
 Transformed a raw dataset into a clean, analysis-ready format with full documentation 
