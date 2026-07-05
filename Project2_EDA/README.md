@@ -36,7 +36,7 @@ The analysis followed a structured, six-part approach:
 - **Jupyter Notebook** — Interactive development and reporting environment
 
 ## Files in This Folder
-- [`Project2_EDA_SujalSinghNegi.ipynb`](./Project2_EDA.ipynb) — Complete analysis notebook with code, visualizations, and commentary
+- [`Project2_EDA_SujalSinghNegi.ipynb`](./Project2_EDA_SujalSinghNegi.ipynb) — Complete analysis notebook with code, visualizations, and commentary
 - [`Project2_EDA_SujalSinghNegi.pdf`](./Project2_EDA_SujalSinghNegi.pdf) — Exported report for quick viewing
 
 ## Key Findings
