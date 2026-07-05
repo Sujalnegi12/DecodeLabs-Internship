@@ -41,14 +41,29 @@ The analysis followed a structured, six-part approach:
 
 ## Key Findings
 
-| # | Finding | Business Implication |
-|---|---------|----------------------|
-| 1 | **Right-skewed distribution** — mean order value (₹1,054) exceeds the median (₹824) | A handful of high-value orders inflate the average; the median is the more trustworthy benchmark for "typical" order size |
-| 2 | **8 statistical outliers** isolated via the IQR method — every one a high-quantity (5-unit), high-UnitPrice bulk order | Confirmed as genuine purchases rather than data errors, and deliberately retained rather than stripped out |
-| 3 | **Peak revenue month: June 2024** (~₹68,068), with January consistently the softest month in both 2024 and 2025 | No dominant seasonal cycle overall, but a recurring January slump signals room for a targeted promotional push |
-| 4 | **Chair is the top revenue-generating product** (₹195,620), while **Phone trails last** (₹151,722) | Inventory planning and marketing spend could tilt toward the strongest-performing product lines |
-| 5 | **Credit Card leads as the preferred payment method**, and **Online is the most frequent order status** | A fairly even spread across payment and fulfillment channels — no single point of dependency to de-risk |
-| 6 | **Quantity and TotalPrice correlate moderately-to-strongly** (r = 0.62), a mathematically expected relationship | Suggests bulk-purchase incentives (tiered discounts, bundle deals) as a viable lever to lift average order value |
+1. **Right-skewed distribution** — Mean order value (₹1,054) exceeds the median (₹824). 
+   A handful of high-value orders inflate the average; the median is the more trustworthy 
+   benchmark for a "typical" order.
+
+2. **8 statistical outliers** isolated via the IQR method — every one a high-quantity 
+   (5-unit), high-UnitPrice bulk order. Confirmed as genuine purchases rather than data 
+   errors, and deliberately retained rather than stripped out.
+
+3. **Peak revenue month: June 2024** (~₹68,068), with January consistently the softest 
+   month in both 2024 and 2025. No dominant seasonal cycle overall, but the recurring 
+   January slump signals room for a targeted promotional push.
+
+4. **Chair is the top revenue-generating product** (₹195,620), while **Phone trails last** 
+   (₹151,722). Inventory planning and marketing spend could tilt toward the 
+   strongest-performing product lines.
+
+5. **Credit Card leads as the preferred payment method**, and **Online is the most frequent 
+   order status** — a fairly even spread across payment and fulfillment channels, with no 
+   single point of dependency.
+
+6. **Quantity and TotalPrice correlate moderately-to-strongly** (r = 0.62), a mathematically 
+   expected relationship. This suggests bulk-purchase incentives (tiered discounts, bundle 
+   deals) as a viable lever to lift average order value.
 
 ## Conclusion
 This exploratory analysis converted a clean but static dataset into a clear, evidence-backed 
