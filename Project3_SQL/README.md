@@ -1,76 +1,105 @@
-Project 3 – SQL Data Analysis
+# 📊 Project 3 – SQL Data Analysis
 
-Overview
+## 🚀 Overview
 
-This project focuses on analyzing an e-commerce dataset using SQL in PostgreSQL. The objective was to practice writing SQL queries to retrieve, filter, sort, group, and summarize data in order to generate meaningful business insights.
+This project focuses on analyzing an **e-commerce dataset** using **SQL in PostgreSQL**.
+The main objective was to practice writing SQL queries to **retrieve, filter, sort, group, and summarize data** in order to generate meaningful business insights.
 
-Dataset
+---
 
-- Table Name: "orders"
-- Total Records: 1,200
-- Dataset: E-commerce order data (same dataset used in the Data Cleaning project)
+## 📁 Dataset
 
-The dataset contains information such as order details, customer IDs, products, quantities, prices, payment methods, shipping details, referral sources, coupon codes, and order status.
+* **Table Name:** `orders`
+* **Total Records:** 1,200
+* **Type:** E-commerce order data
 
-Tools Used
+The dataset includes:
 
-- PostgreSQL 18
-- pgAdmin 4
+* Order details
+* Customer IDs
+* Product information
+* Quantity & pricing
+* Payment methods
+* Shipping details
+* Referral sources
+* Coupon codes
+* Order status
 
-Database Setup
+---
 
-To prepare the dataset for analysis, I:
+## 🛠️ Tools Used
 
-- Created a new database in PostgreSQL.
-- Created the "orders" table with appropriate data types.
-- Imported the CSV file using pgAdmin's Import/Export feature.
-- Converted the original text-based order date into a proper "DATE" column using "TO_DATE()" for easier date operations.
+* 🐘 PostgreSQL 18
+* 📊 pgAdmin 4
 
-SQL Concepts Practiced
+---
 
-During this project, I worked with:
+## ⚙️ Database Setup
 
-- "SELECT"
-- "WHERE"
-- "ORDER BY"
-- "GROUP BY"
-- Aggregate Functions ("COUNT", "SUM", "AVG")
-- "HAVING"
-- "ROUND()"
-- Subqueries
+To prepare the dataset for analysis:
 
-Queries Performed
+* Created a new database in PostgreSQL
+* Designed the `orders` table with appropriate data types
+* Imported the CSV file using pgAdmin
+* Converted text-based order date into proper `DATE` format using `TO_DATE()`
 
-The SQL script includes queries for:
+---
 
-- Selecting required columns
-- Filtering orders by status
-- Finding high-value orders
-- Filtering data by referral source
-- Sorting orders by total price
-- Calculating revenue for each product
-- Counting orders by status
-- Finding average order value by payment method
-- Identifying high-revenue products using "HAVING"
-- Calculating delivered-order revenue by product
-- Finding referral source contribution in percentage
-- Analyzing coupon usage and its revenue impact
+## 🧠 SQL Concepts Practiced
 
-Key Learnings
+* `SELECT`
+* `WHERE`
+* `ORDER BY`
+* `GROUP BY`
+* Aggregate Functions (`COUNT`, `SUM`, `AVG`)
+* `HAVING`
+* `ROUND()`
+* Subqueries
 
-This project helped me understand:
+---
 
-- How SQL retrieves and analyzes data from relational databases.
-- The difference between "WHERE" and "HAVING".
-- How aggregate functions work with "GROUP BY".
-- Why SQL follows a logical execution order ("FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY").
-- How subqueries can be used for percentage calculations.
-- The importance of choosing correct data types for efficient analysis.
+## 🔍 Queries Performed
 
-Project Files
+* Selecting specific columns
+* Filtering orders by status
+* Identifying high-value orders
+* Filtering based on referral sources
+* Sorting orders by total price
+* Calculating revenue per product
+* Counting orders by status
+* Finding average order value by payment method
+* Identifying high-revenue products using `HAVING`
+* Calculating delivered-order revenue
+* Referral contribution analysis (%)
+* Coupon usage & revenue impact
 
-- [Project3_SQL_Analysis_SujalSinghNegi.sql](./Project3_SQL_Analysis_SujalSinghNegi.sql) – Complete SQL script with all queries and comments.
-- README.md – Project documentation.
+---
 
-Author
-Sujal Singh Negi
+## 📈 Key Learnings
+
+* Understanding how SQL extracts insights from relational data
+* Difference between `WHERE` and `HAVING`
+* Working with aggregate functions and grouping
+* SQL execution order:
+
+  ```
+  FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY
+  ```
+* Using subqueries for advanced calculations
+* Importance of correct data types for performance
+
+---
+
+## 📂 Project Files
+
+* 📄 [SQL Script](./Project3_SQL_Analysis_SujalSinghNegi.sql)
+* 📘 [Project Documentation (README.md)](./README.md)
+
+---
+
+## 👨‍💻 Author
+
+**Sujal Singh Negi**
+
+
+---
