@@ -93,7 +93,6 @@ To prepare the dataset for analysis:
 ## 📂 Project Files
 
 * 📄 [SQL Script](./Project3_SQL_Analysis_SujalSinghNegi.sql)
-* 📘 [Project Documentation (README.md)](./README.md)
 
 ---
 
