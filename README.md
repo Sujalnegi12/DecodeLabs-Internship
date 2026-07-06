@@ -31,11 +31,14 @@ revenue trends, and quantifying the relationship between order quantity and valu
 
 ---
 
-### 📁 Project 3: SQL Data Analysis *(Coming soon)*
-Will use SQL queries to filter, group, and aggregate the cleaned dataset — bridging the 
-gap between raw data and specific, actionable business answers.
+### 📁 [Project 3: SQL Data Analysis](./Project3_SQL) 
 
-**Tools:** SQL
+This project will focus on leveraging **SQL queries** to analyze the cleaned dataset.
+It will involve filtering, grouping, and aggregating data to transform raw information into clear, actionable business insights.
+The goal is to bridge the gap between raw data and data-driven decision-making.
+
+**Tools:** PostgreSQL, pgAdmin 4
+
 
 ## Skills Demonstrated
 `Data Cleaning` · `Data Wrangling` · `Exploratory Data Analysis` · `Statistical Analysis` · 
@@ -43,4 +46,4 @@ gap between raw data and specific, actionable business answers.
 
 ## Author
 **Sujal Singh Negi**  
-Data Analytics Intern — DecodeLabs (Batch 2026)
+Data Analytics Intern — DecodeLabs 
